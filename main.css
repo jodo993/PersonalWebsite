@@ -41,8 +41,7 @@ body
 	height: 250px;
 }
 
-/* Nav Bar */
-
+/************************************** Nav Bar **************************************/
 nav ul
 {
 	text-align: center;
@@ -120,6 +119,7 @@ ul li img
 	background-image: url(githubHover.png);
 }
 
+/*********************************** Introduction *******************************************/
 .about
 {
 	font-size: 20px;
@@ -146,3 +146,19 @@ ul li img
 {
 	padding-left: 15px;
 }
+
+/***************************************Fit Screen*******************************************/
+
+@media screen and (max-width: 999px)
+{
+	.container{width: 100%;
+			   margin: 0px auto;}
+	.partContain{width: 100%;}
+	body{width: 100%;}
+}
+
+@media screen and (max-width: 320px)
+{
+	.container{width: 320px;}
+}
+
